@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.2s;
 }
 .gtco-nav #gtco-logo a {
-  padding: 0px 10px;
+  padding: 0px 0px;
   color: #fff;
   font-weight: 700;
   -webkit-transition: 0.4s;
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .gtco-nav ul {
   padding: 0;
-  margin: 1px 0 0 0;
+  margin: 0px 0 0 0;
 }
 .gtco-nav ul li {
   padding: 0;
@@ -1312,13 +1312,48 @@ form label {
   width: 250px;
   margin-top: 50px;
   margin-left: 150px;
-  /* margin-left: 40px; */
+}
+
+.imagencookies{
+  eight: 50px;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 445px;
 }
 
 iframe{
   width: 500px;
   height: 500px;
 }
+
+/* COOKIES */
+#overbox3 {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999999;
+  display: block;
+}
+#infobox3 {
+  margin: auto;
+  position: relative;
+  top: 0px;
+  height: 58px;
+  width: 100%;
+  text-align:center;
+  background-color: #eeeeee;
+}
+#infobox3 p {
+  line-height:58px;
+  font-size:12px;
+  text-align:center;
+}
+#infobox3 p a {
+  margin-right:5px;
+  text-decoration: underline;
+}
+
 
 /* .politica{
   margin-top: 200px;
